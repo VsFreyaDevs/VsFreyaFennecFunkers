@@ -1,0 +1,42 @@
+{
+  "version": "2.2.3",
+  "songName": "Samsung",
+  "artist": "Samsung",
+  "charter": "idk lol",
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": {},
+    "vocals": {}
+  },
+  "playData": {
+    "songVariations": [],
+    "difficulties": ["easy", "normal", "hard"],
+    "characters": {
+      "player": "bf-christmas",
+      "girlfriend": "gf-christmas",
+      "opponent": "rocky",
+      "instrumental": "",
+      "altInstrumentals": []
+    },
+    "stage": "void",
+    "noteStyle": "normal",
+    "ratings": {
+      "easy": 0
+    },
+    "previewStart": 0,
+    "previewEnd": 0
+  },
+  "generatedBy": "FreyaFennec_Funkers ALPHA - FNF v0.5.2 FREYA",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 183,
+      "n": 4,
+      "d": 4,
+      "bt": [4, 4, 4, 4]
+    }
+  ]
+}

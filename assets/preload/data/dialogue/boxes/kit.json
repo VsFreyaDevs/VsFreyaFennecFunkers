@@ -1,0 +1,43 @@
+{
+  "version": "1.1.0",
+  "name": "Kit",
+  "assetPath": "speech_bubble_talking",
+  "isPixel": false,
+  "flipX": false,
+  "flipY": false,
+  "offsets": [50, 380],
+  "scale": 1,
+
+  "text": {
+    "offsets": [140, 150],
+    "width": 900,
+    "color": "#ff0000",
+    "fontFamily": "Arial",
+    "shadowColor": "#ffffff",
+    "shadowWidth": 2
+  },
+
+  "animations": [
+    {
+      "name": "enter",
+      "prefix": "Speech Bubble Normal Open0",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": false
+    },
+    {
+      "name": "idle",
+      "prefix": "speech bubble normal0",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "speaking",
+      "prefix": "speech bubble normal0",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    }
+  ]
+}

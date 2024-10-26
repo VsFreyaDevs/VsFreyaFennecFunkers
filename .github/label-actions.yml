@@ -1,0 +1,117 @@
+# Configuration for Label Actions - https://github.com/dessant/label-actions
+
+# Automatically close issues and pull requests when the `status: duplicate` label is applied
+'status: duplicate':
+  issues:
+    # Post a comment
+    comment: >
+      yo this issue's a duple, please direct all discussion to the original issue
+    # Close the issue
+    close: true
+    # Remove other status labels
+    unlabel:
+      - 'accepted'
+      - 'status: bug reproduced'
+      - 'cant reproduce issue'
+      - 'good first issue'
+      - 'resolved'
+      - 'needs more info'
+      - 'needs revision'
+      - 'pending pr'
+      - 'pending triage'
+      - 'reviewing internally'
+      - 'reproducable'
+      - 'rejected'
+      - 'stale'
+    # Set a close reason
+    close-reason: 'not planned'
+  prs:
+    # Post a comment
+    comment: >
+      yo this PR's a duple, please direct all discussion to the original PR
+    # Remove other status labels
+    unlabel:
+      - 'accepted'
+      - 'status: bug reproduced'
+      - 'cant reproduce issue'
+      - 'good first issue'
+      - 'resolved'
+      - 'needs more info'
+      - 'needs revision'
+      - 'pending pr'
+      - 'pending triage'
+      - 'reviewing internally'
+      - 'reproducable'
+      - 'rejected'
+      - 'stale'
+    # Close the pull request
+    close: true
+    # Set a close reason
+    close-reason: 'not planned'
+
+'status: rejected':
+  issues:
+    # Post a comment
+    comment: >
+      one of the devs rejected this issue, well somebody in this issue discussion might know the reason...
+    # Close the issue
+    close: true
+    # Remove other status labels
+    unlabel:
+      - 'accepted'
+      - 'status: bug reproduced'
+      - 'cant reproduce issue'
+      - 'good first issue'
+      - 'resolved'
+      - 'needs more info'
+      - 'needs revision'
+      - 'pending pr'
+      - 'pending triage'
+      - 'reviewing internally'
+      - 'reproducable'
+      - 'stale'
+    # Set a close reason
+    close-reason: 'not planned'
+  prs:
+    # Post a comment
+    comment: >
+      one of the devs rejected this PR, well somebody in this PR discussion might know the reason...
+    # Close the pull request
+    close: true
+    # Remove other status labels
+    unlabel:
+      - 'accepted'
+      - 'status: bug reproduced'
+      - 'cant reproduce issue'
+      - 'good first issue'
+      - 'resolved'
+      - 'needs more info'
+      - 'needs revision'
+      - 'pending pr'
+      - 'pending triage'
+      - 'reviewing internally'
+      - 'reproducable'
+      - 'stale'
+    # Set a close reason
+    close-reason: 'not planned'
+
+    'status: resolved':
+  issues:
+    # Close the issue
+    close: true
+    # Set a close reason
+    close-reason: 'completed'
+    # Remove other status labels
+    unlabel:
+      - 'accepted'
+      - 'status: bug reproduced'
+      - 'cant reproduce issue'
+      - 'good first issue'
+      - 'needs more info'
+      - 'needs revision'
+      - 'pending pr'
+      - 'pending triage'
+      - 'reviewing internally'
+      - 'reproducable'
+      - 'rejected'
+      - 'stale'

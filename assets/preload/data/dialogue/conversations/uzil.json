@@ -1,0 +1,223 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 2.0,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "",
+    "fadeTime": 0,
+    "looped": false
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "freya",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "enter",
+
+      "text": ["...", "L"]
+    },
+    {
+      "speaker": "bf-kit",
+      "speakerAnimation": "scared",
+      "box": "kit",
+      "boxAnimation": "talk",
+
+      "text": [
+        " WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHH"
+      ],
+      "speed": 0.6
+    },
+    {
+      "speaker": "bf-kit",
+      "speakerAnimation": "scared",
+      "box": "kit",
+      "boxAnimation": "talk",
+
+      "text": [
+        "I WANT ME MOMMY MIKA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+      ],
+      "speed": 0.75
+    },
+    {
+      "speaker": "kanimate",
+      "speakerAnimation": "shocked",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["YO WHAT??"],
+      "speed": 0.8
+    },
+    {
+      "speaker": "milky",
+      "speakerAnimation": "shocked",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["WHAT LE FUCK?!?!?!?"],
+      "speed": 0.8
+    },
+    {
+      "speaker": "freya",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["For fuck's sake, now that's just down bad..."]
+    },
+    {
+      "speaker": "bf-kit",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["*dials Mika's number on his phone*"],
+      "speed": 0.01
+    },
+    {
+      "speaker": "nothing",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["*that one waiting call sound lol*"],
+      "speed": 0.01
+    },
+    {
+      "speaker": "nothing",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["Mika: Hello?"]
+    },
+    {
+      "speaker": "bf-kit",
+      "speakerAnimation": "scared",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["MIKA MOOMY YA NEEDA HELP ME BEAT THESE H8RS!!!"],
+      "speed": 0.8
+    },
+    {
+      "speaker": "nothing",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": [
+        "Mika: Alright, first of all. For the 692th time, stop calling me that!"
+      ]
+    },
+    {
+      "speaker": "nothing",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": [
+        "Mika: Second of all, if it's that stupid orange fox that ended me like 500 times, I WILL beat her ass!"
+      ]
+    },
+    {
+      "speaker": "bf-kit",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["*sniffles*", "yes mika ...."],
+      "speed": 1.4
+    },
+    {
+      "speaker": "nothing",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": [
+        "Mika: Don't worry, I'll be on my way! By the way, FREYA I'LL FIND YOU-"
+      ]
+    },
+    {
+      "speaker": "nothing",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["*hang up*"],
+      "speed": 0.01
+    },
+    {
+      "speaker": "freya",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["..."],
+      "speed": 3
+    },
+    {
+      "speaker": "kanimate",
+      "speakerAnimation": "bruh",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["Alright, you're just an actual simp for Mika, SOOOO down bad."]
+    },
+    {
+      "speaker": "milky",
+      "speakerAnimation": "bruh",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["Just like every other Mika fan I shot and bitten..."],
+      "speed": 1.1
+    },
+    {
+      "speaker": "freya",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["Aughh, I better make this quick before Mika comes in..."],
+      "speed": 0.9
+    },
+    {
+      "speaker": "bf-kit",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["good luck me and me mama mika"]
+    },
+    {
+      "speaker": "kanimate",
+      "speakerAnimation": "pissed",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["*along w/ Milky* SIMP!!"],
+      "speed": 0.8
+    },
+    {
+      "speaker": "bf-kit",
+      "speakerAnimation": "talk",
+      "box": "kit",
+      "boxAnimation": "speaking",
+
+      "text": ["SHUT FUCK UP"],
+      "speed": 0.8
+    }
+  ]
+}

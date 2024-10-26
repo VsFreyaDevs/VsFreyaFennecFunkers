@@ -1,0 +1,48 @@
+{
+  "version": "2.2.4",
+  "songName": "Freyin",
+  "artist": "TheAnimateMan",
+  "charter": "charlesisfeline",
+  "divisions": 96,
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": {},
+    "vocals": {},
+    "altVocals": {}
+  },
+  "playData": {
+    "songVariations": [],
+    "difficulties": ["normal", "hard", "easy"],
+    "characters": {
+      "player": "bf-kit",
+      "girlfriend": "gf",
+      "opponent": "freya",
+      "instrumental": "",
+      "altInstrumentals": [],
+      "opponentVocals": ["freya"],
+      "playerVocals": ["bf-kit"]
+    },
+    "stage": "void",
+    "noteStyle": "kit",
+    "ratings": {
+      "easy": 2,
+      "hard": 5,
+      "normal": 4
+    },
+    "previewStart": 0,
+    "previewEnd": 0
+  },
+  "generatedBy": "FreyaFennec_Funkers ALPHA - FNF v0.5.2 FREYA",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 190,
+      "n": 4,
+      "d": 4,
+      "bt": [4, 4, 4, 4]
+    }
+  ]
+}

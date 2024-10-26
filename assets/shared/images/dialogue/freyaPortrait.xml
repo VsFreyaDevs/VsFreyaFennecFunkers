@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="freyaPortrait.png" width="705" height="735">
+	<SubTexture name="portNormal0000" x="16" y="16" width="673" height="703" frameX="-4" frameY="-217" frameWidth="720" frameHeight="920"/>
+</TextureAtlas>

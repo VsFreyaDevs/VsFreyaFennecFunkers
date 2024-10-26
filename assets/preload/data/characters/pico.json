@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "name": "Pico",
+  "assetPath": "characters/Pico_Basic",
+  "flipX": true,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Pico Idle Dance",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Pico NOTE LEFT0",
+      "offsets": [-84, -11]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Pico Down Note0",
+      "offsets": [-31, -76]
+    },
+    {
+      "name": "singUP",
+      "prefix": "pico Up note0",
+      "offsets": [-44, 29]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Pico Note Right0",
+      "offsets": [55, 1]
+    }
+  ]
+}

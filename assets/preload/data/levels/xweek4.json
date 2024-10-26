@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "ITS_CHAINZ",
+  "titleAsset": "storymenu/titles/chainz",
+  "props": [],
+  "background": "#413CAE",
+  "visible": false,
+  "songs": ["topp", "azure", "doublyon"]
+}

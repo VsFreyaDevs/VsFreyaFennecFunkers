@@ -1,0 +1,16 @@
+name: Question
+description: Ask about something here.
+labels: [question]
+title: "[QUESTION] - "
+body:
+  - type: checkboxes
+    attributes:
+      label: Issue Checklist
+      options:
+        - label: Have you got the issue title right?
+        - label: Have you checked the Issues/Discussions to see if this hasn't been reported yet?
+  - type: textarea
+    attributes:
+      label: What is your question?
+    validations:
+      required: true

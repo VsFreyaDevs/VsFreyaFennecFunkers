@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "name": "Milky",
+  "assetPath": "dialogue/milkyPortrait",
+  "flipX": false,
+  "isPixel": false,
+  "scale": 0.8,
+  "offsets": [45, 125],
+  "animations": [
+    {
+      "name": "talk",
+      "prefix": "portSmile",
+      "offsets": [0, 0],
+      "frameRate": 12,
+      "flipX": false
+    },
+    {
+      "name": "talkFlip",
+      "prefix": "portSmile",
+      "offsets": [0, 0],
+      "frameRate": 12,
+      "flipX": true
+    },
+    {
+      "name": "angy",
+      "prefix": "portAngy",
+      "offsets": [0, 0],
+      "frameRate": 12
+    },
+    {
+      "name": "bruh",
+      "prefix": "portBruh",
+      "offsets": [0, 0],
+      "frameRate": 12
+    },
+    {
+      "name": "smug",
+      "prefix": "portSmug",
+      "offsets": [0, 0],
+      "frameRate": 12
+    },
+    {
+      "name": "confused",
+      "prefix": "portConfused",
+      "offsets": [0, 0],
+      "frameRate": 12
+    },
+    {
+      "name": "shocked",
+      "prefix": "portShocked",
+      "offsets": [0, 0],
+      "frameRate": 12
+    },
+    {
+      "name": "scared",
+      "prefix": "portScared",
+      "offsets": [0, 0],
+      "frameRate": 12
+    },
+    {
+      "name": "realize",
+      "prefix": "portUhhh",
+      "offsets": [0, 0],
+      "frameRate": 12
+    },
+    {
+      "name": "sleepy",
+      "prefix": "portSleepy",
+      "offsets": [0, 0],
+      "frameRate": 12
+    },
+    {
+      "name": "cheer",
+      "prefix": "portExcited",
+      "offsets": [0, 0],
+      "frameRate": 12
+    }
+  ]
+}

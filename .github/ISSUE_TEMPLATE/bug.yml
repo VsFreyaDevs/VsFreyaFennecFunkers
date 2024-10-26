@@ -1,0 +1,66 @@
+name: Bug Report
+description: Report a bug/issue in the mod/game.
+labels: ["bug", "pending triage"]
+title: "[BUG REPORT] - "
+body:
+  - type: checkboxes
+    attributes:
+      label: Issue Checklist
+      options:
+        - label: Have you got the issue title right?
+        - label: Have you checked the Issues/Discussions to see if this hasn't been reported yet?
+        - label: Have you tried redownloading the mod/engine?
+        - label: Have you tried disabling every mod?
+        - label: Have you tried reproducing this issue on a fresh install of Vs. Freya?
+  - type: dropdown
+    attributes:
+      label: What platform are you using?
+      options:
+        - Windows (x64)
+        - Windows (x86)
+        - MacOS
+        - Linux
+        - Android
+        - iOS
+        - HTML5
+        - HashLink
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: If you are playing on a browser, which one are you using?
+      options:
+        - Google Chrome
+        - Chromium (Vanilla)
+        - Microsoft Edge
+        - Firefox
+        - Opera
+        - Opera GX
+        - Brave
+        - Safari
+        - Other (Specify below)
+        - BUT I AM PLAYING ON DESKTOP/PHONE, REALLY?????
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "## Describe the bug in detail."
+
+  - type: markdown
+    attributes:
+      value: "#### Remember to provide as many details as you can, we ain't no mind readers bud."
+
+  - type: textarea
+    attributes:
+      label: Context (Provide images, videos, etc.)
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: false
